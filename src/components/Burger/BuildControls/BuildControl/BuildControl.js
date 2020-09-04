@@ -1,8 +1,8 @@
 import React from 'react';
 
-import classes from './BuilControl.css';
+import classes from './BuildControl.css';
 
-const BuilControl = props => {
+const BuildControl = props => {
     return (
         <div className={classes.BuildControl}>
             <div className={classes.Label}>{props.label}</div>
@@ -12,4 +12,4 @@ const BuilControl = props => {
     )
 }
 
-export default BuilControl
+export default BuildControl
