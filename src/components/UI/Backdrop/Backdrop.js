@@ -9,6 +9,6 @@ const Backdrop = props => (
             className={classes.Backdrop}
             onClick={props.clicked}
         ></div>
-)
+);
 
 export default Backdrop;
